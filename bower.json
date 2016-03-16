@@ -1,9 +1,10 @@
 {
     "name": "devbridge-autocomplete",
     "version": "1.2.25",
-    "homepage": "https://github.com/devbridge/jQuery-Autocomplete",
+    "homepage": "https://github.com/ericharth/jQuery-Autocomplete",
     "authors": [
-        "Tomas Kirda"
+        "Tomas Kirda",
+        "Eric Harth"
     ],
     "description": "Autocomplete provides suggestions while you type into the text field.",
     "main": "dist/jquery.autocomplete.js",
