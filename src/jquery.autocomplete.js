@@ -131,7 +131,7 @@
         if (!currentValue) {
             return suggestion.value;
         }
-        
+
         var pattern = '(' + utils.escapeRegExChars(currentValue) + ')';
 
         return suggestion.value
@@ -224,7 +224,7 @@
         onBlur: function () {
             this.enableKillerFn();
         },
-        
+
         abortAjax: function () {
             var that = this;
             if (that.currentRequest) {
@@ -357,7 +357,7 @@
                     that.el.val(that.currentValue);
                     that.hide();
                 }
-                
+
                 that.stopKillSuggestions();
             }, 50);
         },
@@ -846,8 +846,8 @@
 
         select: function (i) {
             var that = this;
-            that.hide();
             that.onSelect(i);
+            that.hide();            
         },
 
         moveUp: function () {
